@@ -38,7 +38,7 @@ btnHamburguesa.addEventListener('click', function() {
 /* Función para que el texto de la sección Sobre Mí tenga un efecto de Parallax sobre la foto */
 window.addEventListener('scroll', () => {
     /* Aquí uso la función de detectar el ancho de la pantalla para que cuando esta sea mayor a 1000 se haga el efecto Parallax */
-    if(detectarWidth() > 1000) {
+    if(detectarWidth() > 1300) {
         const info = document.querySelector('.sobre__info')
         let value = window.scrollY;
 
