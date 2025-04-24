@@ -375,9 +375,7 @@ main {
   gap: 2rem;
 }
 .sobre__imagen {
-  width: 50%;
-  height: 500px;
-  background-color: red;
+  height: 600px;
 }
 .sobre__info {
   width: 50%;
@@ -982,8 +980,7 @@ option {
     flex-direction: column-reverse;
   }
   .sobre__imagen {
-    width: 60%;
-    height: 350px;
+    height: 400px;
   }
   .sobre__info {
     width: 100%;
@@ -1164,6 +1161,9 @@ option {
   }
 }
 @media (max-width: 420px) {
+  .sobre__imagen {
+    height: 15.625rem;
+  }
   .contacto {
     margin-top: 40rem;
   }
